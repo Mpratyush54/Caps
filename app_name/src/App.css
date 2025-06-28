@@ -1,0 +1,33 @@
+.bg-orange {
+  background-color: #ff7f00 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffd699;
+}
+  
+.center-image {
+
+  display: block;
+  margin: auto;
+  width: 50%;
+
+}
+.card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+.navbar{
+  margin-bottom: 2px;
+}
+body {
+  padding-top: 70px; /* Adjust to match your navbar height */
+}
+main {
+  padding-top: 70px; /* Adjust height if navbar gets larger on responsive */
+}
